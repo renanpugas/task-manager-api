@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect(process.env.MONGODB_URL, {
+mongoose.connect("mongodb+srv://taskapp:taskapp@cluster0-jrbyt.mongodb.net/test?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useCreateIndex: true
 });
